@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0px #c0bebe;
+    height: 72px;
+    width: 100%;
+    z-index: 10;
+}
+
+.background {
+    width: 100%;
+    height: 364px;
+    background-image: url(photo.png);
+    padding-top: 72px;
+    background-size: cover;
+}
+
+.pushkin {
+    background-color: #FFFF;
+    height: 204px;
+    margin-top: 80px;
+}
+
+.pushkin_text {
+    padding-left: 38px;
+    padding-top: 38px;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 54px;
+}
+
+.kitchen {
+    color: #626262;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0px;
+}
+
+.delivery {
+    background-color: #262626;
+    height: 32px;
+    width: 100px;
+    color: #FFFF;
+    font-size: 13px;
+    line-height: 15px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 0px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px;
+    align-items: center;
+}
+
+.menu_m {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0px #c0bebe;
+    height: 80px;
+    width: 100%;
+}
+
+.menu_pushkin {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 32px;
+}
+
+.menu-type {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 40px;
+    color: #626262;
+    transition: all .1s ease-in-out;
+}
+
+.menu-type:hover {
+    font-weight: 600;
+    color: #327430;
+    border-bottom: solid #327430 2px;
+}
+
+.zakuski {
+    color: #1D1D1D;
+    font-size: 22px;
+    line-height: 34px;
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+
+.zakuski_card {
+    position: relative;
+    border-style: solid;
+    border-color: #757575;
+    border-width: 1px;
+    height: 160px;
+    transition: all .1s ease-in-out;
+    margin-bottom: 49px;
+}
+
+.zakuski_name {
+    color: #1D1D1D;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.zakuski_info {
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.zakuski_price {
+    position: absolute;
+    color: #1D1D1D;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    top: 98px;
+    left: 10px;
+}
+
+.zakuski_img {
+    width: 170px;
+    height: 100%;
+}
+
+figure {
+    float: right;
+    margin: 0 0;
+}
+
+.zakuski_card:hover {
+    outline: solid #327430 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
